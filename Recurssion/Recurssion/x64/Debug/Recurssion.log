@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\C++\Recurssion\Recurssion\Source.cpp(23): warning C4715: 'Fact': not all control paths return a value
+  Recurssion.vcxproj -> D:\C++\Recurssion\x64\Debug\Recurssion.exe
