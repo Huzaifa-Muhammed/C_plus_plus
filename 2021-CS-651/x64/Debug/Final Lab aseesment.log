@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\C++\Final Lab aseesment\Source.cpp(32,22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+D:\C++\Final Lab aseesment\Source.cpp(113,22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+D:\C++\Final Lab aseesment\Source.cpp(157,22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+D:\C++\Final Lab aseesment\Source.cpp(191,22): warning C4305: 'initializing': truncation from 'double' to 'const float'
+D:\C++\Final Lab aseesment\Source.cpp(223,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Final Lab aseesment.vcxproj -> D:\C++\Final Lab aseesment\x64\Debug\Final Lab aseesment.exe
