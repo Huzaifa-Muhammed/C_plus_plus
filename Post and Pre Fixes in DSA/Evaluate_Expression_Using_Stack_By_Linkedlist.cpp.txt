@@ -1,0 +1,141 @@
+#include <iostream>
+
+using namespace std;
+
+class Node
+{
+private:
+    char data;
+    Node *next;
+
+public:
+    Node(char val)
+    {
+        data = val;
+        next = NULL;
+    }
+
+    friend class Stack;
+};
+
+class Stack
+{
+private:
+    Node *Top;
+
+public:
+    Stack()
+    {
+        Top = NULL;
+    }
+
+    void Push(char st)
+    {
+
+        Node *temp = Top;
+        Node *myNode = new Node(st);
+
+        if (IsEmpty())
+        {
+            Top = myNode;
+        }
+        else
+        {
+            myNode->next = temp;
+            temp = myNode;
+            Top = temp;
+        }
+    }
+
+    char Pop()
+    {
+        Node *temp = Top;
+        Node *del;
+        if (!IsEmpty())
+        {
+            del = temp;
+            Top = temp->next;
+            return temp->data;
+            delete del;
+        }
+    }
+
+    bool IsEmpty()
+    {
+        return Top == NULL ? true : false;
+    }
+
+    char Peek()
+    {
+        Node *temp = Top;
+
+        if (!IsEmpty())
+        {
+            return temp->data;
+        }
+    }
+
+    int Precedence(char c)
+    {
+        if (c == '-' || c == '+')
+            return 1;
+        else if (c == '*' || c == '/')
+            return 2;
+        else if (c == '^')
+            return 3;
+        return 0;
+    }
+
+    void EvaluateExpression(string s)
+    {
+
+        char symbol;
+        int output;
+        int Op1, Op2;
+        for (int i = 0; i < s.length(); i++)
+        {
+            symbol = s[i];
+            if (isdigit(symbol))
+            {
+                Push(symbol - '0');
+            }
+            else if (symbol == '+' || symbol == '-' || symbol == '*' || symbol == '/')
+            {
+
+                Op1 = Pop();
+                Op2 = Pop();
+
+                switch (symbol)
+                {
+                case '*':
+                    output = Op2 * Op1;
+                    break;
+
+                case '/':
+                    output = Op2 / Op1;
+                    break;
+
+                case '+':
+                    output = Op2 + Op1;
+                    break;
+
+                case '-':
+                    output = Op2 - Op1;
+                    break;
+                }
+                Push(output);
+            }
+        }
+        cout << "\n Result of expression evaluation :" << output;
+    }
+};
+
+int main()
+{
+    Stack S;
+    string input;
+    cout << "Enter an expression in infix form with Brackets: ";
+    cin >> input;
+    S.EvaluateExpression(input);
+    return 0;
+}
