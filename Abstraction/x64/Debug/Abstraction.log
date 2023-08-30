@@ -1,0 +1,95 @@
+﻿  Source.cpp
+D:\C++\Abstraction\Book.h(9,9): error C3646: 'title': unknown override specifier
+D:\C++\Abstraction\Book.h(9,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\C++\Abstraction\Book.h(11,9): error C3646: 'category': unknown override specifier
+D:\C++\Abstraction\Book.h(11,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\C++\Abstraction\Book.h(13,9): error C3646: 'author': unknown override specifier
+D:\C++\Abstraction\Book.h(13,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\C++\Abstraction\Book.h(15,16): error C2061: syntax error: identifier 'string'
+D:\C++\Abstraction\Book.h(16,9): error C3646: 'gettitle': unknown override specifier
+D:\C++\Abstraction\Book.h(16,17): error C2059: syntax error: '('
+D:\C++\Abstraction\Book.h(16,19): error C2238: unexpected token(s) preceding ';'
+D:\C++\Abstraction\Book.h(17,14): error C2061: syntax error: identifier 'string'
+D:\C++\Abstraction\Book.h(18,9): error C3646: 'getcat': unknown override specifier
+D:\C++\Abstraction\Book.h(18,15): error C2059: syntax error: '('
+D:\C++\Abstraction\Book.h(18,17): error C2238: unexpected token(s) preceding ';'
+D:\C++\Abstraction\Book.h(19,14): error C2061: syntax error: identifier 'string'
+D:\C++\Abstraction\Book.h(20,9): error C3646: 'getaut': unknown override specifier
+D:\C++\Abstraction\Book.h(20,15): error C2059: syntax error: '('
+D:\C++\Abstraction\Book.h(20,17): error C2238: unexpected token(s) preceding ';'
+D:\C++\Abstraction\Book.h(26,7): error C2061: syntax error: identifier 'string'
+D:\C++\Abstraction\Book.h(26,6): error C2535: 'Book::Book(void)': member function already defined or declared
+D:\C++\Abstraction\Book.h(25): message : see declaration of 'Book::Book'
+  Book.cpp
+D:\C++\Abstraction\Book.h(9,9): error C3646: 'title': unknown override specifier
+D:\C++\Abstraction\Book.h(9,14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\C++\Abstraction\Book.h(11,9): error C3646: 'category': unknown override specifier
+D:\C++\Abstraction\Book.h(11,17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\C++\Abstraction\Book.h(13,9): error C3646: 'author': unknown override specifier
+D:\C++\Abstraction\Book.h(13,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\C++\Abstraction\Book.h(15,16): error C2061: syntax error: identifier 'string'
+D:\C++\Abstraction\Book.h(16,9): error C3646: 'gettitle': unknown override specifier
+D:\C++\Abstraction\Book.h(16,17): error C2059: syntax error: '('
+D:\C++\Abstraction\Book.h(16,19): error C2238: unexpected token(s) preceding ';'
+D:\C++\Abstraction\Book.h(17,14): error C2061: syntax error: identifier 'string'
+D:\C++\Abstraction\Book.h(18,9): error C3646: 'getcat': unknown override specifier
+D:\C++\Abstraction\Book.h(18,15): error C2059: syntax error: '('
+D:\C++\Abstraction\Book.h(18,17): error C2238: unexpected token(s) preceding ';'
+D:\C++\Abstraction\Book.h(19,14): error C2061: syntax error: identifier 'string'
+D:\C++\Abstraction\Book.h(20,9): error C3646: 'getaut': unknown override specifier
+D:\C++\Abstraction\Book.h(20,15): error C2059: syntax error: '('
+D:\C++\Abstraction\Book.h(20,17): error C2238: unexpected token(s) preceding ';'
+D:\C++\Abstraction\Book.h(26,7): error C2061: syntax error: identifier 'string'
+D:\C++\Abstraction\Book.h(26,6): error C2535: 'Book::Book(void)': member function already defined or declared
+D:\C++\Abstraction\Book.h(25): message : see declaration of 'Book::Book'
+D:\C++\Abstraction\Book.cpp(5,33): error C2511: 'void Book::settitle(std::string)': overloaded member function not found in 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(6,2): error C2065: 'title': undeclared identifier
+D:\C++\Abstraction\Book.cpp(8,14): error C2039: 'gettitle': is not a member of 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(9,9): error C2065: 'title': undeclared identifier
+D:\C++\Abstraction\Book.cpp(11,31): error C2511: 'void Book::setcat(std::string)': overloaded member function not found in 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(12,2): error C2065: 'category': undeclared identifier
+D:\C++\Abstraction\Book.cpp(14,14): error C2039: 'getcat': is not a member of 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(15,9): error C2065: 'category': undeclared identifier
+D:\C++\Abstraction\Book.cpp(17,31): error C2511: 'void Book::setaut(std::string)': overloaded member function not found in 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(18,2): error C2065: 'author': undeclared identifier
+D:\C++\Abstraction\Book.cpp(20,14): error C2039: 'getaut': is not a member of 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(21,9): error C2065: 'author': undeclared identifier
+D:\C++\Abstraction\Book.cpp(37,2): error C2065: 'title': undeclared identifier
+D:\C++\Abstraction\Book.cpp(39,2): error C2065: 'category': undeclared identifier
+D:\C++\Abstraction\Book.cpp(41,2): error C2065: 'author': undeclared identifier
+D:\C++\Abstraction\Book.cpp(44,1): error C2511: 'Book::Book(std::string,float,std::string,float,std::string)': overloaded member function not found in 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(45,2): error C2065: 'title': undeclared identifier
+D:\C++\Abstraction\Book.cpp(45,16): error C2597: illegal reference to non-static member 'Book::accession_no'
+D:\C++\Abstraction\Book.h(10): message : see declaration of 'Book::accession_no'
+D:\C++\Abstraction\Book.cpp(45,42): error C2065: 'category': undeclared identifier
+D:\C++\Abstraction\Book.cpp(45,60): error C2597: illegal reference to non-static member 'Book::price'
+D:\C++\Abstraction\Book.h(12): message : see declaration of 'Book::price'
+D:\C++\Abstraction\Book.cpp(45,73): error C2065: 'author': undeclared identifier
+D:\C++\Abstraction\Book.cpp(57,20): error C2660: 'Book::settitle': function does not take 1 arguments
+D:\C++\Abstraction\Book.h(15,7): message : see declaration of 'Book::settitle'
+D:\C++\Abstraction\Book.cpp(58,55): error C2039: 'gettitle': is not a member of 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(60,18): error C2660: 'Book::setaut': function does not take 1 arguments
+D:\C++\Abstraction\Book.h(19,7): message : see declaration of 'Book::setaut'
+D:\C++\Abstraction\Book.cpp(63,18): error C2660: 'Book::setcat': function does not take 1 arguments
+D:\C++\Abstraction\Book.h(17,7): message : see declaration of 'Book::setcat'
+D:\C++\Abstraction\Book.cpp(93,12): error C2039: 'getaut': is not a member of 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(107,12): error C2039: 'gettitle': is not a member of 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(130,59): error C2039: 'gettitle': is not a member of 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(130,110): error C2039: 'gettitle': is not a member of 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(130,143): error C2039: 'getaut': is not a member of 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+D:\C++\Abstraction\Book.cpp(132,47): error C2039: 'getcat': is not a member of 'Book'
+D:\C++\Abstraction\Book.h(7): message : see declaration of 'Book'
+  Generating Code...
